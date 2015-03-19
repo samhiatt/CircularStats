@@ -1,6 +1,22 @@
 Circular Statistics
 -------------------
 
+## Class def
+
+```ts
+class CircularStats {
+    this.count: number;
+    this.max: number;
+    this.min: number;
+    this.mean: number;
+    this.stdDev: number;
+    this.variance: number;
+    this.push: (value?:number, weight?: number = 1) => CircularStats;
+    this.push: (values:[number], weight?: number = 1) => CircularStats;
+    this.push: (statsObj: CircularStats) => CircularStats;
+}
+```
+
 ## Usage
 
 ```bash
