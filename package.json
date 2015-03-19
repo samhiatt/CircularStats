@@ -1,0 +1,30 @@
+{
+  "name": "CircularStats",
+  "version": "0.0.0",
+  "description": "Rolling statistics object for Circular Statistics (e.g. values 0 - 360) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samhiatt/CircularStats.git"
+  },
+  "keywords": [
+    "circular",
+    "statistics",
+    "stats",
+    "rolling",
+    "stats",
+    "dir",
+    "stats",
+    "directional",
+    "statistics"
+  ],
+  "author": "Sam Hiatt, samhiatt@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samhiatt/CircularStats/issues"
+  },
+  "homepage": "https://github.com/samhiatt/CircularStats"
+}
