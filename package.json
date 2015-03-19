@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/samhiatt/CircularStats/issues"
   },
-  "homepage": "https://github.com/samhiatt/CircularStats"
+  "homepage": "https://github.com/samhiatt/CircularStats",
+  "dependencies": {
+    "running-stats": "git://github.com/samhiatt/running-stats.git"
+  }
 }

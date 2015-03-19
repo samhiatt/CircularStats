@@ -1,0 +1,1 @@
+module.exports.CircStats = require('./lib/CircularStats');
